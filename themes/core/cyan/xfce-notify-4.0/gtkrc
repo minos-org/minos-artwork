@@ -1,0 +1,24 @@
+style "dark-window"
+{
+    bg[NORMAL] = "#000000" 
+    XfceNotifyWindow::border-color = "#75d1c7"
+    XfceNotifyWindow::border-radius = 0.0
+    XfceNotifyWindow::border-width = 1.0
+}
+class "XfceNotifyWindow" style "dark-window"
+
+style "dark-button"
+{
+    bg[NORMAL] = "#000000"
+    bg[PRELIGHT] = "#000000"
+    fg[NORMAL] = "#75d1c7"
+    fg[PRELIGHT] = "#75d1c7"
+}
+widget_class "XfceNotifyWindow.*.GtkButton*" style "dark-button"
+
+style "dark-text"
+{
+    fg[NORMAL] = "#75d1c7"
+    GtkWidget::link-color = "#a7a7a7"
+}
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "dark-text"

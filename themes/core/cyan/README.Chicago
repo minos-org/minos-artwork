@@ -1,0 +1,3 @@
+cyan theme (c)2013 Daniel C. Würl <danielwuerl@hotmail.de>
+
+To have Menubars using Apple Chicago font make shure to have it installed on your system and copy the gtkrc from "Chicago"Folder to your "gtk-2.0" folder.
